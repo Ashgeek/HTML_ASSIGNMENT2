@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Me</title>
+  </head>
+  <body>
+    <header>
+      <h1>
+        <strong><center>ALL ABOUT ME</center></strong>
+      </h1>
+      <nav>
+        <li><a href="table.html"> Schools and Courses</a></li>
+        <li><a href="index.html"> About Me</a></li>
+      </nav>
+      <p><strong>Get to know me via the media</strong></p>
+    </header>
+
+    <main>
+      <section>
+        <h2>Me in Pictures</h2>
+        <picture>
+          <source srcset="/Asset/picture2.jpeg" width="400px" media="(max-width: 600px)">
+          <source srcset="/Asset/picture3.jpeg" width="400px" media="(min-width: 601px) and max-width: 1200px"> 
+          <source srcset="/Asset/picture4.jpeg" width="400px" media="(min-width: 1201px)">
+          <img src="/Asset/picture1.jpeg" alt="" width="400px" media="">
+        </picture>
+      </section>
+      <article id="audio">
+        <section>
+          <h1><em>Audio element</em></h1>
+          <audio src="Asset/Music1.mp3" controls></audio>
+        </section>
+      </article>
+      <article id="video">
+        <section>
+          <h1><em>video element</em></h1>
+          <video src="Asset/video.mp4" controls></video>
+        </section>
+      </article>
+    </main>
+  </body>
+</html>
